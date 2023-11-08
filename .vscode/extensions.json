@@ -1,0 +1,9 @@
+{
+  "recommendations": [
+    "biomejs.biome",
+    "mikestead.dotenv",
+    "bradlc.vscode-tailwindcss",
+    "EditorConfig.EditorConfig",
+    "github.vscode-github-actions"
+  ]
+}
