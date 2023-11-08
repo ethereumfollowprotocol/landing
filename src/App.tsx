@@ -97,7 +97,7 @@ export default function App() {
           </Text>
         </Box>
         <Card className='p-4 bg-white/50 text-black font-bold text-center text-sm border-transparent'>
-          <Text>Launch Partners</Text>
+          <Text size='3'>Launch Partners</Text>
           <Grid columns='6' rows='2' gap='3' width='100%'>
             {launchPartners.map(partner => (
               <Box>
@@ -121,7 +121,7 @@ export default function App() {
           </Grid>
         </Card>
         <Card className='bg-white/50 text-black font-bold text-center text-sm w-80 py-2 border-transparent mx-auto'>
-          <Text>Supported by grants from</Text>
+          <Text size='3'>Supported by grants from</Text>
           <Link target='_blank' rel='noopener noreferrer' href='https://ensdao.org/'>
             <img
               src='/ensdao.png'
