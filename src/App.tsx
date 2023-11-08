@@ -88,21 +88,17 @@ export default function App() {
             </Text>
           </Flex>
         </Flex>
-        <Text size='5' weight='bold'>
+        <p className='text-zinc-900 text-lg sm:text-xl font-bold mx-4'>
           It{"'"}s about who you know. The social graph for Ethereum.
-        </Text>
-        <Box>
-          <Text size='9' weight='bold' className='text-zinc-500'>
-            Coming Soon
-          </Text>
-        </Box>
-        <Card className='p-4 bg-white/50 text-black font-bold text-center text-sm border-none ring-none'>
+        </p>
+        <p className='text-zinc-500 text-5xl sm:text-6xl font-bold'>Coming Soon</p>
+        <Box className='p-4 bg-white/50 text-black font-bold text-center text-sm rounded-xl mx-2'>
           <Text size='3'>Launch Partners</Text>
-          <Grid columns='6' rows='2' gap='3' width='100%'>
+          <Grid columns='6' rows='2' gap='1' width='100%'>
             {launchPartners.map(partner => (
               <Box>
                 <Link
-                  className='text-black'
+                  className='text-black text-xs'
                   target='_blank'
                   rel='noopener noreferrer'
                   href={partner.url}
@@ -119,8 +115,12 @@ export default function App() {
               </Box>
             ))}
           </Grid>
-        </Card>
-        <Card className='w-full bg-white/50 text-black font-bold text-center text-sm py-2 border-none mx-auto'>
+        </Box>
+        <Box
+          py='4'
+          mx='2'
+          className='bg-white/50 text-black font-bold text-center text-sm rounded-xl'
+        >
           <Text size='3'>Supported by grants from</Text>
           <Link target='_blank' rel='noopener noreferrer' href='https://ensdao.org/'>
             <img
@@ -131,7 +131,7 @@ export default function App() {
               className='mx-auto pt-4'
             />
           </Link>
-        </Card>
+        </Box>
       </Flex>
     </Flex>
   )
