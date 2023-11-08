@@ -73,17 +73,17 @@ export default function App() {
   return (
     <Flex mx='auto' width='100%' justify='center'>
       <Header />
-      <Flex justify='center' direction='column' gap='6' mx='auto'>
+      <Flex justify='center' direction='column' gap='6' mx='auto' className='mt-10 sm:mt-2'>
         <Flex align='center' gap='5' justify='center'>
           <Avatar src='/logo.png' fallback={''} size='8' />
           <Flex direction='column'>
-            <Text className='text-[#FF79C9]' size='6' weight='bold'>
+            <Text className='text-[#FF79C9]' size='7' weight='bold'>
               Ethereum
             </Text>
-            <Text className='text-[#FF79C9]' size='6' weight='bold'>
+            <Text className='text-[#FF79C9]' size='7' weight='bold'>
               Follow
             </Text>
-            <Text className='text-[#FF79C9]' size='6' weight='bold'>
+            <Text className='text-[#FF79C9]' size='7' weight='bold'>
               Protocol
             </Text>
           </Flex>
@@ -92,11 +92,11 @@ export default function App() {
           It{"'"}s about who you know. The social graph for Ethereum.
         </Text>
         <Box>
-          <Text size='9' weight='bold' className='text-gray-400'>
+          <Text size='9' weight='bold' className='text-zinc-500'>
             Coming Soon
           </Text>
         </Box>
-        <Card className='p-4 bg-white/50 text-black font-bold text-center text-sm border-transparent'>
+        <Card className='p-4 bg-white/50 text-black font-bold text-center text-sm border-none ring-none'>
           <Text size='3'>Launch Partners</Text>
           <Grid columns='6' rows='2' gap='3' width='100%'>
             {launchPartners.map(partner => (
@@ -120,7 +120,7 @@ export default function App() {
             ))}
           </Grid>
         </Card>
-        <Card className='bg-white/50 text-black font-bold text-center text-sm w-80 py-2 border-transparent mx-auto'>
+        <Card className='w-full bg-white/50 text-black font-bold text-center text-sm py-2 border-none mx-auto'>
           <Text size='3'>Supported by grants from</Text>
           <Link target='_blank' rel='noopener noreferrer' href='https://ensdao.org/'>
             <img
