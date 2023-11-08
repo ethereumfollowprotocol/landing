@@ -1,7 +1,6 @@
 import { Avatar, Box, Card, Flex, Grid, Link, Text } from '@radix-ui/themes'
 
 import { Header } from '#/components/header.tsx'
-import { Footer } from '#/components/footer.tsx'
 
 export const launchPartners = [
   {
@@ -134,7 +133,6 @@ export default function App() {
           </Link>
         </Card>
       </Flex>
-      <Footer />
     </Flex>
   )
 }
