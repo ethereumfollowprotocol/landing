@@ -49,9 +49,9 @@ export const launchPartners = [
     logo: '/nimi.jpeg'
   },
   {
-    name: 'Outputs',
-    url: 'https://outputs.io',
-    logo: '/outputs.jpeg'
+    name: 'Outposts',
+    url: 'https://outposts.io',
+    logo: '/outposts.jpeg'
   },
   {
     name: 'Fileverse',
@@ -61,7 +61,7 @@ export const launchPartners = [
   {
     name: 'eth.ad',
     url: 'https://eth.ad',
-    logo: '/eth.ad.jpeg'
+    logo: '/ethad.jpeg'
   },
   {
     name: 'SI HER',
