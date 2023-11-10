@@ -6,62 +6,87 @@ export const launchPartners = [
   {
     name: 'Skiff',
     url: 'https://skiff.org',
-    logo: '/skiff.png'
+    logo: '/skiff.jpeg'
   },
   {
     name: 'Nifty Island',
     url: 'https://niftyisland.io',
-    logo: '/niftyisland.png'
+    logo: '/niftyisland.jpeg'
   },
   {
-    name: 'Nimi',
-    url: 'https://nimi.xyz',
-    logo: '/nimi.png'
+    name: 'ENS Vision',
+    url: 'https://ens.vision/',
+    logo: '/ensvision.jpeg'
   },
   {
     name: 'Llamafolio',
     url: 'https://llamafolio.xyz',
-    logo: '/llamafolio.png'
-  },
-  {
-    name: 'Namehash',
-    url: 'https://namehash.xyz',
-    logo: '/namehash.png'
+    logo: '/llamafolio.jpeg'
   },
   {
     name: 'Interface',
     url: 'https://interface.xyz',
-    logo: '/interface.png'
+    logo: '/interface.jpeg'
+  },
+  {
+    name: 'Daylight',
+    url: 'https://www.daylight.xyz/',
+    logo: '/daylight.jpeg'
+  },
+  {
+    name: 'Namehash',
+    url: 'https://namehash.xyz',
+    logo: '/namehash.jpeg'
   },
   {
     name: '1w3',
     url: 'https://1w3.io',
-    logo: '/1w3.png'
+    logo: '/1w3.jpeg'
+  },
+  {
+    name: 'Nimi',
+    url: 'https://nimi.xyz',
+    logo: '/nimi.jpeg'
   },
   {
     name: 'Outputs',
     url: 'https://outputs.io',
-    logo: '/outputs.png'
+    logo: '/outputs.jpeg'
   },
   {
-    name: 'Fileserve',
-    url: 'https://fileserve.io',
-    logo: '/fileserve.png'
+    name: 'Fileverse',
+    url: 'https://fileverse.io',
+    logo: '/fileverse.jpeg'
   },
   {
     name: 'eth.ad',
     url: 'https://eth.ad',
-    logo: '/eth.ad.png'
+    logo: '/eth.ad.jpeg'
   },
   {
-    name: 'Si HER',
+    name: 'SI HER',
     url: 'https://siher.io',
-    logo: '/siher.png'
+    logo: '/siher.jpeg'
   },
   {
     name: 'GoDID',
     url: 'https://godid.io',
-    logo: '/godid.png'
+    logo: '/godid.jpeg'
+  },
+  {
+    name: 'NeuraName',
+    url: 'https://www.neuraname.com/',
+    logo: '/neuraname.jpeg'
+  },
+  {
+    name: 'Mask Network',
+    url: 'https://mask.io/',
+    logo: '/masknetwork.jpeg'
+  },
+  {
+    name: 'web3.bio',
+    url: 'https://web3.bio/',
+    logo: '/web3bio.jpeg'
   }
 ] satisfies Array<{
   name: string
