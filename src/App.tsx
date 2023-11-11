@@ -98,7 +98,7 @@ export default function App() {
   return (
     <Flex mx='auto' width='100%' justify='center'>
       <Header />
-      <Flex justify='center' direction='column' gap='6' mx='auto' className='mt-10 sm:mt-2'>
+      <Flex justify='center' direction='column' gap='3' mx='auto' className='mt-10 sm:mt-2'>
         <Flex align='center' gap='5' justify='center'>
           <Avatar src='/logo.png' fallback={''} size='8' className='shadow-xl rounded-full' />
           <Flex direction='column' className='text-left'>
@@ -113,17 +113,19 @@ export default function App() {
             </Text>
           </Flex>
         </Flex>
-        <p className='text-zinc-900 text-2xl sm:text-xl font-bold mx-4'>
+        <p className='text-zinc-900 text-lg sm:text-xl font-bold mx-4'>
           It{"'"}s about who you know. The social graph for Ethereum.
         </p>
-        <p className='text-zinc-500 text-5xl sm:text-6xl font-bold'>Coming Soon</p>
+
+        <p className='text-zinc-500 text-4xl sm:text-6xl font-bold my-2 sm:my-8'>Coming Soon</p>
+
         <Box className='p-3 bg-white/50 text-black font-bold text-center text-sm rounded-xl mx-2'>
           <p className='text-zinc-900 text-2xl sm:text-base font-bold pb-3'>Launch Partners</p>
-          <section className='w-full gap-2 grid grid-cols-4 sm:grid-cols-6 grid-rows-2'>
+          <section className='w-full gap-y-2 grid grid-cols-5 sm:grid-cols-6 grid-rows-2'>
             {launchPartners.map(partner => (
-              <Box key={partner.name}>
+              <Box key={partner.name} width='100%'>
                 <Link
-                  className='text-black text-xs rounded-full space-y-1'
+                  className='text-black text-xs rounded-full space-y-1 '
                   target='_blank'
                   rel='noopener noreferrer'
                   href={partner.url}
