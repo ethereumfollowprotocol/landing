@@ -1,5 +1,6 @@
 {
   "name": "efp-landing",
+  "description": "EFP Landing Page",
   "version": "0.0.0",
   "type": "module",
   "scripts": {

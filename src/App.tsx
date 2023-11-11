@@ -100,58 +100,58 @@ export default function App() {
       <Header />
       <Flex justify='center' direction='column' gap='6' mx='auto' className='mt-10 sm:mt-2'>
         <Flex align='center' gap='5' justify='center'>
-          <Avatar src='/logo.png' fallback={''} size='8' />
-          <Flex direction='column'>
-            <Text className='text-[#FF79C9]' size='7' weight='bold'>
+          <Avatar src='/logo.png' fallback={''} size='8' className='shadow-xl rounded-full' />
+          <Flex direction='column' className='text-left'>
+            <Text size='7' weight='bold'>
               Ethereum
             </Text>
-            <Text className='text-[#FF79C9]' size='7' weight='bold'>
+            <Text size='7' weight='bold'>
               Follow
             </Text>
-            <Text className='text-[#FF79C9]' size='7' weight='bold'>
+            <Text size='7' weight='bold'>
               Protocol
             </Text>
           </Flex>
         </Flex>
-        <p className='text-zinc-900 text-lg sm:text-xl font-bold mx-4'>
+        <p className='text-zinc-900 text-2xl sm:text-xl font-bold mx-4'>
           It{"'"}s about who you know. The social graph for Ethereum.
         </p>
         <p className='text-zinc-500 text-5xl sm:text-6xl font-bold'>Coming Soon</p>
-        <Box className='p-4 bg-white/50 text-black font-bold text-center text-sm rounded-xl mx-2'>
-          <Text size='3'>Launch Partners</Text>
-          <Grid columns='6' rows='2' gap='1' width='100%'>
+        <Box className='p-3 bg-white/50 text-black font-bold text-center text-sm rounded-xl mx-2'>
+          <p className='text-zinc-900 text-2xl sm:text-base font-bold pb-3'>Launch Partners</p>
+          <section className='w-full gap-2 grid grid-cols-4 sm:grid-cols-6 grid-rows-2'>
             {launchPartners.map(partner => (
-              <Box>
+              <Box key={partner.name}>
                 <Link
-                  className='text-black text-xs'
+                  className='text-black text-xs rounded-full space-y-1'
                   target='_blank'
                   rel='noopener noreferrer'
                   href={partner.url}
                 >
                   <img
                     src={partner.logo}
-                    width='50'
-                    height='50'
+                    width='45'
+                    height='45'
                     alt={partner.name}
-                    className='mx-auto pt-4'
+                    className='mx-auto rounded-full'
                   />
-                  {partner.name}
+                  <p className='text-md font-bold'>{partner.name}</p>
                 </Link>
               </Box>
             ))}
-          </Grid>
+          </section>
         </Box>
         <Box
           py='4'
           mx='2'
           className='bg-white/50 text-black font-bold text-center text-sm rounded-xl'
         >
-          <Text size='3'>Supported by grants from</Text>
+          <p className='text-zinc-900 text-2xl sm:text-base font-bold'>Supported by grants from:</p>
           <Link target='_blank' rel='noopener noreferrer' href='https://ensdao.org/'>
             <img
               src='/ensdao.png'
-              width='100'
-              height='100'
+              width='150'
+              height='150'
               alt='ens dao'
               className='mx-auto pt-4'
             />
