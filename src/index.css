@@ -88,7 +88,7 @@ body,
   min-height: 100%;
   min-width: 100%;
   margin: 0;
-  background: linear-gradient(180deg, #fff500 0%, #ff79c9 65.93%), #333;
+  background: linear-gradient(180deg, #fff500 0%, #ff79c9 50%), #333;
   background-attachment: no-repeat;
   font-family: "Roboto", sans-serif !important;
 }
