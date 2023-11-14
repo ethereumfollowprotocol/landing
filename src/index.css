@@ -21,7 +21,6 @@ html {
   min-height: 130%;
 }
 
-
 body,
 #root {
   height: 100vh;
@@ -29,8 +28,9 @@ body,
   min-height: 100%;
   min-width: 100%;
   margin: 0;
-  background: linear-gradient(180deg, #FFF500 0%, #FF79C9 95.93%), #333;
+  background: linear-gradient(180deg, #fff500 0%, #ff79c9 95.93%), #333;
   background-attachment: fixed;
+  font-family: "Roboto", sans-serif !important;
 }
 
 /* Remove default margin in favour of better control in authored CSS */
