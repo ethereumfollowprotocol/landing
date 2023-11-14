@@ -27,7 +27,9 @@ body,
   width: 100%;
   min-height: 100%;
   min-width: 100%;
+  margin: 0;
   background: linear-gradient(180deg, #FFF500 0%, #FF79C9 45.93%), #333;
+  background-attachment: fixed;
 }
 
 /* Remove default margin in favour of better control in authored CSS */
