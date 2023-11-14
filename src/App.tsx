@@ -74,7 +74,7 @@ export const launchPartners = [
     logo: '/godid.jpeg'
   },
   {
-    name: 'NeuraName',
+    name: 'Neura Name',
     url: 'https://www.neuraname.com/',
     logo: '/neuraname.jpeg'
   },
