@@ -44,6 +44,11 @@ export const launchPartners = [
     logo: '/1w3.jpeg'
   },
   {
+    name: 'eth.cd',
+    url: 'https://eth.cd',
+    logo: '/ethdotcd.jpeg'
+  },
+  {
     name: 'Nimi',
     url: 'https://nimi.xyz',
     logo: '/nimi.jpeg'
@@ -89,8 +94,8 @@ export const launchPartners = [
     logo: '/ethdotco.jpeg'
   },
   {
-    name: 'Web3.Link',
-    url: 'https://web3.link/',
+    name: 'W3Link',
+    url: 'https://w3.link/',
     logo: '/web3link.jpeg'
   },
   {
