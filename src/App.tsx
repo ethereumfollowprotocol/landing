@@ -113,7 +113,7 @@ export default function App() {
             </Text>
           </Flex>
         </Flex>
-        <p className='text-zinc-900 text-lg sm:text-[22px] font-bold mx-4 mt-4'>
+        <p className='text-zinc-900 text-lg sm:text-[24px] font-bold mx-4 mt-4'>
           It{"'"}s about who you know. The social graph for Ethereum.
         </p>
 
@@ -152,7 +152,7 @@ export default function App() {
           width='100%'
           className='bg-white/50 text-black font-bold text-center text-sm rounded-3xl max-w-3xl'
         >
-          <p className='text-zinc-900 text-2xl sm:text-[20px] font-bold pb-2'>
+          <p className='text-zinc-900 text-2xl sm:text-[24px] font-bold pb-2'>
             Supported by grants from:
           </p>
           <Link target='_blank' rel='noopener noreferrer' href='https://ensdao.org/'>
