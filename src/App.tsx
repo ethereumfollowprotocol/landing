@@ -137,7 +137,7 @@ export default function App() {
         </p>
 
         <Box className='bg-white/50 text-black font-bold text-center text-sm rounded-3xl mx-auto w-full max-w-4xl' style={{ padding:'2.5rem 4rem 2.5rem 4rem' }}>
-          <p className='text-zinc-900 text-2xl font-bold pb-12 sm:pb-6' style={{ fontsize: '27px' }}>
+          <p className='text-zinc-900 text-2xl font-bold pb-12 sm:pb-6' style={{ font-size: '27px' }}>
             Launch Partners
           </p>
           <section className='w-full gap-y-8 gap-x-12 sm:gap-x-8 grid grid-cols-2 sm:grid-cols-6 grid-rows-2'>
