@@ -96,7 +96,7 @@ export const launchPartners = [
 
 export default function App() {
   return (
-    <Flex mx='auto' px='3' width='100%' justify='center'>
+    <Flex mx='auto' px='3' width='100%' justify='center' className='font-serif'>
       <Header />
       <Flex width='100%' justify='center' direction='column' gap='3' mx='auto' className='mt-20'>
         <Flex align='center' gap='5' justify='center' pt='1'>
