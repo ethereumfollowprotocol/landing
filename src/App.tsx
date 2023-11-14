@@ -96,36 +96,36 @@ export const launchPartners = [
 
 export default function App() {
   return (
-    <Flex mx='auto' width='100%' justify='center' pb='9'>
+    <Flex mx='auto' px='3' width='100%' justify='center' className='pb-[30rem]'>
       <Header />
-      <Flex justify='center' direction='column' gap='3' mx='auto' className='mt-10'>
-        <Flex align='center' gap='5' justify='center'>
-          <Avatar src='/logo.png' fallback={''} size='8' className='shadow-xl rounded-full' />
+      <Flex width='100%' justify='center' direction='column' gap='3' mx='auto' className='mt-24'>
+        <Flex align='center' gap='5' justify='center' pt='1'>
+          <Avatar src='/logo.png' fallback={''} className='shadow-xl rounded-full w-40 h-40' />
           <Flex direction='column' className='text-left'>
-            <Text size='7' weight='bold'>
+            <Text size='8' weight='bold'>
               Ethereum
             </Text>
-            <Text size='7' weight='bold'>
+            <Text size='8' weight='bold'>
               Follow
             </Text>
-            <Text size='7' weight='bold'>
+            <Text size='8' weight='bold'>
               Protocol
             </Text>
           </Flex>
         </Flex>
-        <p className='text-zinc-900 text-lg sm:text-base font-bold mx-4 mt-4'>
+        <p className='text-zinc-900 text-lg sm:text-[22px] font-bold mx-4 mt-4'>
           It{"'"}s about who you know. The social graph for Ethereum.
         </p>
 
-        <p className='text-[#888888] text-5xl sm:text-6xl font-bold my-2 sm:my-14'>Coming Soon</p>
+        <p className='text-[#888888] text-6xl sm:text-8xl font-bold my-7 sm:my-20'>Coming Soon</p>
 
-        <Box className='p-5 bg-white/50 text-black font-bold text-center text-sm rounded-xl mx-2'>
-          <p className='text-zinc-900 text-2xl sm:text-base font-bold pb-4'>Launch Partners</p>
-          <section className='w-full gap-y-3 grid grid-cols-5 sm:grid-cols-6 grid-rows-2'>
+        <Box className='p-5 px-7 bg-white/50 text-black font-bold text-center text-sm rounded-3xl mx-auto w-full max-w-3xl'>
+          <p className='text-zinc-900 text-2xl sm:text-[24px] font-bold pb-8'>Launch Partners</p>
+          <section className='w-full gap-y-6 gap-x-12 sm:gap-x-8 grid grid-cols-2 sm:grid-cols-6 grid-rows-2'>
             {launchPartners.map(partner => (
               <Box key={partner.name} width='100%'>
                 <Link
-                  className='text-black text-xs rounded-full space-y-1'
+                  className='text-black text-xs rounded-full space-y-2'
                   target='_blank'
                   rel='noopener noreferrer'
                   href={partner.url}
@@ -133,9 +133,9 @@ export default function App() {
                   <img
                     src={partner.logo}
                     alt={partner.name}
-                    className='mx-auto rounded-full w-12 h-12 sm:w-14 sm:h-14'
+                    className='mx-auto rounded-full sm:w-18 sm:h-18'
                   />
-                  <p className='text-[0.7rem] sm:text-md font-bold'>{partner.name}</p>
+                  <p className='text-[1rem] sm:text-[16px] font-bold'>{partner.name}</p>
                 </Link>
               </Box>
             ))}
@@ -143,17 +143,21 @@ export default function App() {
         </Box>
         <Box
           py='4'
-          mx='2'
-          className='bg-white/50 text-black font-bold text-center text-sm rounded-xl'
+          mx='auto'
+          my='5'
+          width='100%'
+          className='bg-white/50 text-black font-bold text-center text-sm rounded-3xl max-w-3xl'
         >
-          <p className='text-zinc-900 text-2xl sm:text-base font-bold'>Supported by grants from:</p>
+          <p className='text-zinc-900 text-2xl sm:text-[20px] font-bold'>
+            Supported by grants from:
+          </p>
           <Link target='_blank' rel='noopener noreferrer' href='https://ensdao.org/'>
             <img
               src='/ensdao.png'
               width='150'
               height='150'
               alt='ens dao'
-              className='mx-auto pt-4'
+              className='mx-auto py-4'
             />
           </Link>
         </Box>
