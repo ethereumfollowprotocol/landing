@@ -146,20 +146,20 @@ export default function App() {
           </section>
         </Box>
         <Box
-          py='4'
+          py='5'
           mx='auto'
           my='5'
           width='100%'
           className='bg-white/50 text-black font-bold text-center text-sm rounded-3xl max-w-3xl'
         >
-          <p className='text-zinc-900 text-2xl sm:text-[20px] font-bold'>
+          <p className='text-zinc-900 text-2xl sm:text-[20px] font-bold pb-2'>
             Supported by grants from:
           </p>
           <Link target='_blank' rel='noopener noreferrer' href='https://ensdao.org/'>
             <img
               src='/ensdao.png'
-              width='150'
-              height='150'
+              width='175'
+              height='175'
               alt='ens dao'
               className='mx-auto py-4'
             />
