@@ -158,7 +158,7 @@ export default function App() {
           <Link target='_blank' rel='noopener noreferrer' href='https://ensdao.org/'>
             <img
               src='/ensdao.png'
-              width='175'
+              width='230'
               height='175'
               alt='ens dao'
               className='mx-auto py-4'
