@@ -39,8 +39,8 @@ export const launchPartners = [
     logo: '/namehash.jpeg'
   },
   {
-    name: '1w3',
-    url: 'https://1w3.io',
+    name: 'eth.lk',
+    url: 'https://eth.lk',
     logo: '/1w3.jpeg'
   },
   {
@@ -82,6 +82,16 @@ export const launchPartners = [
     name: 'Mask Network',
     url: 'https://mask.io/',
     logo: '/masknetwork.jpeg'
+  },
+  {
+    name: 'eth.co',
+    url: 'https://eth.co',
+    logo: '/ethdotco.jpeg'
+  },
+  {
+    name: 'web3.link',
+    url: 'https://web3.link',
+    logo: '/web3link.jpeg'
   },
   {
     name: 'web3.bio',
