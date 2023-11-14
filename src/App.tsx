@@ -131,7 +131,7 @@ export default function App() {
           Coming Soon
         </p>
 
-        <Box className='p-9 px-12 bg-white/50 text-black font-bold text-center text-sm rounded-3xl mx-auto w-full max-w-4xl' style='padding-left:4rem' style='padding-right:4rem'>
+        <Box className='bg-white/50 text-black font-bold text-center text-sm rounded-3xl mx-auto w-full max-w-4xl' style='padding:2.5rem 4rem 2.5rem 4rem'>
           <p className='text-zinc-900 text-2xl sm:text-[24px] font-bold pb-12 sm:pb-6'>
             Launch Partners
           </p>
