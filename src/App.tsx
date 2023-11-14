@@ -149,7 +149,7 @@ export default function App() {
                     alt={partner.name}
                     className='mx-auto rounded-full sm:w-19 sm:h-19'
                   />
-                  <p className='pt-1 mt-2 text-[1.3rem] sm:text-[20px] font-bold'>{partner.name}</p>
+                  <p className='pt-1 mt-2 text-[1.3rem] sm:text-[20px] font-bold' style="line-height:25px">{partner.name}</p>
                 </Link>
               </Box>
             ))}
