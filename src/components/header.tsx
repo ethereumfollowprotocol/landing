@@ -64,7 +64,7 @@ export function Header() {
         rel='noopener noreferrer'
         className='text-black font-bold text-lg px-2'
       >
-        Docs
+        DOCS
       </Link>
 
       <Link
@@ -73,7 +73,7 @@ export function Header() {
         rel='noopener noreferrer'
         className='text-black font-bold text-lg'
       >
-        Demo
+        DEMO
       </Link>
     </header>
   )
