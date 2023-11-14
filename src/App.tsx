@@ -20,12 +20,12 @@ export const launchPartners = [
   },
   {
     name: 'Llamafolio',
-    url: 'https://llamafolio.xyz',
+    url: 'https://llamafolio.com',
     logo: '/llamafolio.jpeg'
   },
   {
     name: 'Interface',
-    url: 'https://interface.xyz',
+    url: 'https://interface.social',
     logo: '/interface.jpeg'
   },
   {
@@ -35,7 +35,7 @@ export const launchPartners = [
   },
   {
     name: 'Namehash',
-    url: 'https://namehash.xyz',
+    url: 'https://namehash.io',
     logo: '/namehash.jpeg'
   },
   {
@@ -50,7 +50,7 @@ export const launchPartners = [
   },
   {
     name: 'Nimi',
-    url: 'https://nimi.xyz',
+    url: 'https://nimi.io',
     logo: '/nimi.jpeg'
   },
   {
@@ -70,7 +70,7 @@ export const launchPartners = [
   },
   {
     name: 'SI HER',
-    url: 'https://siher.io',
+    url: 'https://www.si-her.live/',
     logo: '/siher.jpeg'
   },
   {
