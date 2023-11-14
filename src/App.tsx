@@ -39,8 +39,8 @@ export const launchPartners = [
     logo: '/namehash.jpeg'
   },
   {
-    name: '1w3',
-    url: 'https://1w3.io',
+    name: 'eth.lk',
+    url: 'https://eth.lk',
     logo: '/1w3.jpeg'
   },
   {
@@ -74,7 +74,7 @@ export const launchPartners = [
     logo: '/godid.jpeg'
   },
   {
-    name: 'NeuraName',
+    name: 'Neura Name',
     url: 'https://www.neuraname.com/',
     logo: '/neuraname.jpeg'
   },
@@ -82,6 +82,16 @@ export const launchPartners = [
     name: 'Mask Network',
     url: 'https://mask.io/',
     logo: '/masknetwork.jpeg'
+  },
+  {
+    name: 'eth.co',
+    url: 'https://eth.co/',
+    logo: '/ethdotco.jpeg'
+  },
+  {
+    name: 'Web3.Link',
+    url: 'https://web3.link/',
+    logo: '/web3link.jpeg'
   },
   {
     name: 'web3.bio',
@@ -121,7 +131,7 @@ export default function App() {
           Coming Soon
         </p>
 
-        <Box className='p-9 px-12 bg-white/50 text-black font-bold text-center text-sm rounded-3xl mx-auto w-full max-w-3xl'>
+        <Box className='p-9 px-12 bg-white/50 text-black font-bold text-center text-sm rounded-3xl mx-auto w-full max-w-4xl' style='padding-left:4rem' style='padding-right:4rem'>
           <p className='text-zinc-900 text-2xl sm:text-[24px] font-bold pb-12 sm:pb-6'>
             Launch Partners
           </p>
@@ -139,7 +149,7 @@ export default function App() {
                     alt={partner.name}
                     className='mx-auto rounded-full sm:w-19 sm:h-19'
                   />
-                  <p className='pt-1 mt-2 text-[1.3rem] sm:text-[14px] font-bold'>{partner.name}</p>
+                  <p className='pt-1 mt-2 text-[1.3rem] sm:text-[20px] font-bold' style='line-height:25px'>{partner.name}</p>
                 </Link>
               </Box>
             ))}
@@ -150,7 +160,7 @@ export default function App() {
           mx='auto'
           my='5'
           width='100%'
-          className='bg-white/50 text-black font-bold text-center text-sm rounded-3xl max-w-3xl'
+          className='bg-white/50 text-black font-bold text-center text-sm rounded-3xl max-w-4xl'
         >
           <p className='text-zinc-900 text-2xl sm:text-[24px] font-bold pb-2'>
             Supported by grants from:
