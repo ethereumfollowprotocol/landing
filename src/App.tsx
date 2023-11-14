@@ -117,7 +117,7 @@ export default function App() {
           It{"'"}s about who you know. The social graph for Ethereum.
         </p>
 
-        <p className='text-[#888888] text-6xl sm:text-[5.5rem] font-bold my-7 sm:my-20'>
+        <p className='text-[#888888] text-6xl sm:text-[5.2rem] font-semibold my-7 sm:my-20'>
           Coming Soon
         </p>
 
