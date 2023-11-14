@@ -2,7 +2,7 @@ import { Button, Link } from '@radix-ui/themes'
 
 export function Header() {
   return (
-    <header className='flex space-x-3 fixed top-0 left-4 right-4 justify-end items-center h-16'>
+    <header className='flex space-x-3 fixed top-0 left-4 right-4 justify-end items-center h-16 mx-4'>
       <Link
         href='https://github.com/ethereumfollowprotocol/demo'
         target='_blank'
@@ -27,7 +27,7 @@ export function Header() {
         href='https://x.com/ethfollowpr'
         target='_blank'
         rel='noopener noreferrer'
-        className='rounded-full bg-transparent'
+        className='rounded-full'
       >
         <svg
           xmlns='http://www.w3.org/2000/svg'
@@ -58,26 +58,23 @@ export function Header() {
         </svg>
       </Link>
 
-      <Button color='gray' size='1' variant='solid' className='text-white bg-gray-800' asChild>
-        <Link
-          href='https://docs.ethfollow.xyz/api'
-          target='_blank'
-          rel='noopener noreferrer'
-          className='text-white rounded-md'
-        >
-          DOCS
-        </Link>
-      </Button>
-      <Button color='gray' size='1' variant='solid' className='text-white bg-gray-800' asChild>
-        <Link
-          href='https://demo.ethfollow.xyz'
-          target='_blank'
-          rel='noopener noreferrer'
-          className='text-white rounded-md'
-        >
-          DEMO
-        </Link>
-      </Button>
+      <Link
+        href='https://docs.ethfollow.xyz/api'
+        target='_blank'
+        rel='noopener noreferrer'
+        className='text-black font-bold text-lg px-2'
+      >
+        Docs
+      </Link>
+
+      <Link
+        href='https://demo.ethfollow.xyz'
+        target='_blank'
+        rel='noopener noreferrer'
+        className='text-black font-bold text-lg'
+      >
+        Demo
+      </Link>
     </header>
   )
 }
