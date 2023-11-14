@@ -139,7 +139,7 @@ export default function App() {
                     alt={partner.name}
                     className='mx-auto rounded-full sm:w-19 sm:h-19'
                   />
-                  <p className='pt-3 text-[1.5rem] sm:text-[14px] font-bold'>{partner.name}</p>
+                  <p className='pt-1 text-[1.5rem] sm:text-[14px] font-bold'>{partner.name}</p>
                 </Link>
               </Box>
             ))}
