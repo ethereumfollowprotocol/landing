@@ -98,7 +98,7 @@ export default function App() {
   return (
     <Flex mx='auto' px='3' width='100%' justify='center' className='pb-[30rem]'>
       <Header />
-      <Flex width='100%' justify='center' direction='column' gap='3' mx='auto' className='mt-24'>
+      <Flex width='100%' justify='center' direction='column' gap='3' mx='auto' className='mt-20'>
         <Flex align='center' gap='5' justify='center' pt='1'>
           <Avatar src='/logo.png' fallback={''} className='shadow-xl rounded-full w-40 h-40' />
           <Flex direction='column' className='text-left'>
@@ -117,11 +117,13 @@ export default function App() {
           It{"'"}s about who you know. The social graph for Ethereum.
         </p>
 
-        <p className='text-[#888888] text-6xl sm:text-8xl font-bold my-7 sm:my-20'>Coming Soon</p>
+        <p className='text-[#888888] text-6xl sm:text-[5.5rem] font-bold my-7 sm:my-20'>
+          Coming Soon
+        </p>
 
-        <Box className='p-5 px-7 bg-white/50 text-black font-bold text-center text-sm rounded-3xl mx-auto w-full max-w-3xl'>
-          <p className='text-zinc-900 text-2xl sm:text-[24px] font-bold pb-8'>Launch Partners</p>
-          <section className='w-full gap-y-6 gap-x-12 sm:gap-x-8 grid grid-cols-2 sm:grid-cols-6 grid-rows-2'>
+        <Box className='p-9 px-12 bg-white/50 text-black font-bold text-center text-sm rounded-3xl mx-auto w-full max-w-3xl'>
+          <p className='text-zinc-900 text-2xl sm:text-[24px] font-bold pb-6'>Launch Partners</p>
+          <section className='w-full gap-y-8 gap-x-12 sm:gap-x-8 grid grid-cols-2 sm:grid-cols-6 grid-rows-2'>
             {launchPartners.map(partner => (
               <Box key={partner.name} width='100%'>
                 <Link
@@ -133,9 +135,9 @@ export default function App() {
                   <img
                     src={partner.logo}
                     alt={partner.name}
-                    className='mx-auto rounded-full sm:w-18 sm:h-18'
+                    className='mx-auto rounded-full sm:w-19 sm:h-19'
                   />
-                  <p className='text-[1rem] sm:text-[16px] font-bold'>{partner.name}</p>
+                  <p className='text-[1rem] sm:text-[15px] font-bold'>{partner.name}</p>
                 </Link>
               </Box>
             ))}
