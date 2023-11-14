@@ -96,7 +96,7 @@ export const launchPartners = [
 
 export default function App() {
   return (
-    <Flex mx='auto' px='3' width='100%' justify='center' className='pb-[30rem]'>
+    <Flex mx='auto' px='3' width='100%' justify='center'>
       <Header />
       <Flex width='100%' justify='center' direction='column' gap='3' mx='auto' className='mt-20'>
         <Flex align='center' gap='5' justify='center' pt='1'>
@@ -122,7 +122,9 @@ export default function App() {
         </p>
 
         <Box className='p-9 px-12 bg-white/50 text-black font-bold text-center text-sm rounded-3xl mx-auto w-full max-w-3xl'>
-          <p className='text-zinc-900 text-2xl sm:text-[24px] font-bold pb-6'>Launch Partners</p>
+          <p className='text-zinc-900 text-2xl sm:text-[24px] font-bold pb-12 sm:pb-6'>
+            Launch Partners
+          </p>
           <section className='w-full gap-y-8 gap-x-12 sm:gap-x-8 grid grid-cols-2 sm:grid-cols-6 grid-rows-2'>
             {launchPartners.map(partner => (
               <Box key={partner.name} width='100%'>
@@ -137,7 +139,7 @@ export default function App() {
                     alt={partner.name}
                     className='mx-auto rounded-full sm:w-19 sm:h-19'
                   />
-                  <p className='text-[1rem] sm:text-[15px] font-bold'>{partner.name}</p>
+                  <p className='pt-3 text-[1.5rem] sm:text-[15px] font-bold'>{partner.name}</p>
                 </Link>
               </Box>
             ))}
