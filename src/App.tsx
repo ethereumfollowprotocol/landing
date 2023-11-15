@@ -102,6 +102,11 @@ export const launchPartners = [
     name: 'web3.bio',
     url: 'https://web3.bio/',
     logo: '/web3bio.jpeg'
+  },
+  {
+    name: 'Domain Plug',
+    url: 'http://domainplug.io/',
+    logo: '/domainplug.jpeg'
   }
 ] satisfies Array<{
   name: string
