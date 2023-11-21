@@ -107,6 +107,11 @@ export const launchPartners = [
     name: 'Domain Plug',
     url: 'http://domainplug.io/',
     logo: '/domainplug.jpeg'
+  },
+  {
+    name: 'Linkeh',
+    url: 'https://www.linkeh.xyz/',
+    logo: '/linkeh.jpeg'
   }
 ] satisfies Array<{
   name: string
