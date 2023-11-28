@@ -39,6 +39,11 @@ export const launchPartners = [
     logo: '/namehash.jpeg'
   },
   {
+    name: 'Alpha Wallet',
+    url: 'https://alphawallet.com/',
+    logo: '/alphawallet.jpeg'
+  },
+  {
     name: 'eth.lk',
     url: 'https://eth.lk',
     logo: '/1w3.jpeg'
