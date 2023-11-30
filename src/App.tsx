@@ -114,6 +114,11 @@ export const launchPartners = [
     logo: '/domainplug.jpeg'
   },
   {
+    name: 'U3',
+    url: 'https://u3.xyz/',
+    logo: '/u3.jpeg'
+  },
+  {
     name: 'Linkeh',
     url: 'https://www.linkeh.xyz/',
     logo: '/linkeh.jpeg'
