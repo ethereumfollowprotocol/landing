@@ -119,6 +119,11 @@ export const launchPartners = [
     logo: '/u3.jpeg'
   },
   {
+    name: 'Namespace',
+    url: 'https://namespace.ninja/',
+    logo: '/namespace.jpeg'
+  },
+  {
     name: 'Linkeh',
     url: 'https://www.linkeh.xyz/',
     logo: '/linkeh.jpeg'
