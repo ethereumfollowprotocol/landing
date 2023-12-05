@@ -124,6 +124,11 @@ export const launchPartners = [
     logo: '/namespace.jpeg'
   },
   {
+    name: 'Icebreaker',
+    url: 'https://www.icebreaker.xyz/',
+    logo: '/icebreaker.png'
+  },
+  {
     name: 'Linkeh',
     url: 'https://www.linkeh.xyz/',
     logo: '/linkeh.jpeg'
