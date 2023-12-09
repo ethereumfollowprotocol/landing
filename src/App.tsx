@@ -19,7 +19,7 @@ export const launchPartners = [
     logo: '/ensvision.jpeg'
   },
   {
-    name: 'Llamafolio',
+    name: 'LlamaFolio',
     url: 'https://llamafolio.com',
     logo: '/llamafolio.jpeg'
   },
