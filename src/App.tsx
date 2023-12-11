@@ -19,11 +19,6 @@ export const launchPartners = [
     logo: '/ensvision.jpeg'
   },
   {
-    name: 'LlamaFolio',
-    url: 'https://llamafolio.com',
-    logo: '/llamafolio.jpeg'
-  },
-  {
     name: 'Interface',
     url: 'https://interface.social',
     logo: '/interface.jpeg'
@@ -34,9 +29,19 @@ export const launchPartners = [
     logo: '/daylight.jpeg'
   },
   {
+    name: 'eth.limo',
+    url: 'https://eth.limo/',
+    logo: '/ethlimo.png'
+  },
+  {
     name: 'Namehash',
     url: 'https://namehash.io',
     logo: '/namehash.jpeg'
+  },
+  {
+    name: 'LlamaFolio',
+    url: 'https://llamafolio.com',
+    logo: '/llamafolio.jpeg'
   },
   {
     name: 'Alpha Wallet',
