@@ -79,6 +79,16 @@ export const launchPartners = [
     logo: '/ethad.jpeg'
   },
   {
+    name: 'Mest',
+    url: 'https://mest.io',
+    logo: '/mest.jpeg'
+  },
+  {
+    name: '3cities',
+    url: 'https://3cities.xyz/',
+    logo: '/3cities.jpeg'
+  },
+  {
     name: 'SI HER',
     url: 'https://www.si-her.live/',
     logo: '/siher.jpeg'
