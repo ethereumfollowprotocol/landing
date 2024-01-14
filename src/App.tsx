@@ -49,6 +49,26 @@ export const launchPartners = [
     logo: '/alphawallet.jpeg'
   },
   {
+    name: 'Nimi',
+    url: 'https://nimi.io',
+    logo: '/nimi.jpeg'
+  },
+  {
+    name: 'Webhash',
+    url: 'https://webhash.com',
+    logo: '/webhash.jpeg'
+  },
+  {
+    name: 'Payflow',
+    url: 'https://payflow.me',
+    logo: '/payflow.jpeg'
+  },
+  {
+    name: 'Noves',
+    url: 'https://noves.fi',
+    logo: '/noves.jpeg'
+  },
+  {
     name: 'eth.lk',
     url: 'https://eth.lk',
     logo: '/1w3.jpeg'
@@ -57,11 +77,6 @@ export const launchPartners = [
     name: 'eth.cd',
     url: 'https://eth.cd',
     logo: '/ethdotcd.jpeg'
-  },
-  {
-    name: 'Nimi',
-    url: 'https://nimi.io',
-    logo: '/nimi.jpeg'
   },
   {
     name: 'Outposts',
