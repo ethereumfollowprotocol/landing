@@ -192,12 +192,21 @@ export default function App() {
           It{"'"}s about who you know. The social graph for Ethereum.
         </p>
 
-        <p className='text-[#888888] text-6xl sm:text-[5.2rem] font-semibold my-7' style={{ margin:'6rem 0 6rem 0' }}>
+        <p
+          className='text-[#888888] text-6xl sm:text-[5.2rem] font-semibold my-7'
+          style={{ margin: '6rem 0 6rem 0' }}
+        >
           Coming Soon
         </p>
 
-        <Box className='bg-white/50 text-black font-bold text-center text-sm rounded-3xl mx-auto w-full max-w-4xl' style={{ padding:'2.5rem 4rem 2.5rem 4rem' }}>
-          <p className='text-zinc-900 text-2xl font-bold pb-12 sm:pb-6' style={{ fontSize: '27px' }}>
+        <Box
+          className='bg-white/50 text-black font-bold text-center text-sm rounded-3xl mx-auto w-full max-w-4xl'
+          style={{ padding: '2.5rem 4rem 2.5rem 4rem' }}
+        >
+          <p
+            className='text-zinc-900 text-2xl font-bold pb-12 sm:pb-6'
+            style={{ fontSize: '27px' }}
+          >
             Launch Partners
           </p>
           <section className='w-full gap-y-8 gap-x-12 sm:gap-x-8 grid grid-cols-2 sm:grid-cols-6 grid-rows-2'>
@@ -214,7 +223,12 @@ export default function App() {
                     alt={partner.name}
                     className='mx-auto rounded-full sm:w-19 sm:h-19'
                   />
-                  <p className='pt-1 mt-2 text-[1.3rem] font-bold' style={{ lineHeight: '25px', fontSize: '17px' }}>{partner.name}</p>
+                  <p
+                    className='pt-1 mt-2 text-[1.3rem] font-bold'
+                    style={{ lineHeight: '25px', fontSize: '17px' }}
+                  >
+                    {partner.name}
+                  </p>
                 </Link>
               </Box>
             ))}
