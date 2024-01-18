@@ -4,6 +4,11 @@ import { Header } from '#/components/header.tsx'
 
 export const launchPartners = [
   {
+    name: 'Airstack',
+    url: 'https://airstack.io/',
+    logo: '/airstack.jpeg'
+  },
+  {
     name: 'Skiff',
     url: 'https://skiff.org',
     logo: '/skiff.jpeg'
@@ -52,6 +57,16 @@ export const launchPartners = [
     name: 'Nimi',
     url: 'https://nimi.io',
     logo: '/nimi.jpeg'
+  },
+  {
+    name: 'Saga',
+    url: 'https://www.pob.studio/ethverse',
+    logo: '/saga.jpeg'
+  },
+  {
+    name: 'DappLooker',
+    url: 'https://dapplooker.com/',
+    logo: '/dapplooker.jpeg'
   },
   {
     name: 'Webhash',
