@@ -59,7 +59,7 @@ export function Header() {
       </Link>
 
       <Link
-        href='https://docs.ethfollow.xyz/api'
+        href='https://docs.ethfollow.xyz/intro'
         target='_blank'
         rel='noopener noreferrer'
         className='text-black font-bold text-lg px-2'
