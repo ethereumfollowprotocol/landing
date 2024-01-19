@@ -176,7 +176,7 @@ export const launchPartners = [
   {
     name: 'Persona',
     url: 'https://persona.art/',
-    logo: '/persona.png'
+    logo: '/persona.jpeg'
   },
   {
     name: 'Linkeh',
