@@ -174,6 +174,11 @@ export const launchPartners = [
     logo: '/icebreaker.png'
   },
   {
+    name: 'Persona',
+    url: 'https://persona.art/',
+    logo: '/persona.png'
+  },
+  {
     name: 'Linkeh',
     url: 'https://www.linkeh.xyz/',
     logo: '/linkeh.jpeg'
