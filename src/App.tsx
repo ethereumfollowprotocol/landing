@@ -84,6 +84,11 @@ export const launchPartners = [
     logo: '/noves.jpeg'
   },
   {
+    name: 'Persona',
+    url: 'https://persona.art/',
+    logo: '/persona.jpeg'
+  },
+  {
     name: 'eth.lk',
     url: 'https://eth.lk',
     logo: '/1w3.jpeg'
@@ -172,11 +177,6 @@ export const launchPartners = [
     name: 'Icebreaker',
     url: 'https://www.icebreaker.xyz/',
     logo: '/icebreaker.png'
-  },
-  {
-    name: 'Persona',
-    url: 'https://persona.art/',
-    logo: '/persona.jpeg'
   },
   {
     name: 'Linkeh',
