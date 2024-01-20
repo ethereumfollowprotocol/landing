@@ -54,6 +54,11 @@ export const launchPartners = [
     logo: '/alphawallet.jpeg'
   },
   {
+    name: 'Brume Wallet',
+    url: 'https://brume.money',
+    logo: '/brume.jpeg'
+  },
+  {
     name: 'Nimi',
     url: 'https://nimi.io',
     logo: '/nimi.jpeg'
