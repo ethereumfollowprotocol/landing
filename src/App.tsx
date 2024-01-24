@@ -130,7 +130,7 @@ export const launchPartners = [
   },
   {
     name: 'SI HER',
-    url: 'https://www.si-her.live/',
+    url: 'https://www.si3.space/',
     logo: '/siher.jpeg'
   },
   {
