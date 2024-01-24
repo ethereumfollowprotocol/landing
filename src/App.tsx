@@ -59,9 +59,44 @@ export const launchPartners = [
     logo: '/brume.jpeg'
   },
   {
+    name: 'Gallery',
+    url: 'https://gallery.so/',
+    logo: '/gallery.jpeg'
+  },
+  {
+    name: 'Center',
+    url: 'https://center.app/',
+    logo: '/center.jpeg'
+  },
+  {
     name: 'Nimi',
     url: 'https://nimi.io',
     logo: '/nimi.jpeg'
+  },
+  {
+    name: 'ENSBook',
+    url: 'https://ensbook.xyz/',
+    logo: '/ensbook.jpeg'
+  },
+  {
+    name: 'Common Ground',
+    url: 'https://www.commonground.cg/',
+    logo: '/commonground.jpeg'
+  },
+  {
+    name: 'Blockhead',
+    url: 'https://blockhead.info/',
+    logo: '/blockhead.jpeg'
+  },
+  {
+    name: 'BerryLab',
+    url: 'https://berrylab.xyz/',
+    logo: '/berrylab.jpeg'
+  },
+  {
+    name: 'TKN',
+    url: 'https://tkn.xyz/',
+    logo: '/tkn.jpeg'
   },
   {
     name: 'Saga',
