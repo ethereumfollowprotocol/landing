@@ -219,6 +219,26 @@ export const launchPartners = [
     logo: '/icebreaker.png'
   },
   {
+    name: 'Stargazer',
+    url: 'https://stargazer.domains/',
+    logo: '/stargazer.png'
+  },
+  {
+    name: 'Once Upon',
+    url: 'https://www.onceupon.gg/home',
+    logo: '/onceupon.png'
+  },
+  {
+    name: 'BendDAO',
+    url: 'https://www.benddao.xyz/en/',
+    logo: '/benddao.png'
+  },
+  {
+    name: 'Integrous',
+    url: 'https://integrous.xyz/',
+    logo: '/integrous.png'
+  },
+  {
     name: 'Linkeh',
     url: 'https://www.linkeh.xyz/',
     logo: '/linkeh.jpeg'
