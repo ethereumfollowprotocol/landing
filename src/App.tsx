@@ -221,22 +221,22 @@ export const launchPartners = [
   {
     name: 'Stargazer',
     url: 'https://stargazer.domains/',
-    logo: '/stargazer.png'
+    logo: '/stargazer.jpeg'
   },
   {
     name: 'Once Upon',
     url: 'https://www.onceupon.gg/home',
-    logo: '/onceupon.png'
+    logo: '/onceupon.jpeg'
   },
   {
     name: 'BendDAO',
     url: 'https://www.benddao.xyz/en/',
-    logo: '/benddao.png'
+    logo: '/benddao.jpeg'
   },
   {
     name: 'Integrous',
     url: 'https://integrous.xyz/',
-    logo: '/integrous.png'
+    logo: '/integrous.jpeg'
   },
   {
     name: 'Linkeh',
