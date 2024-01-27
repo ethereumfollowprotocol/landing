@@ -64,6 +64,11 @@ export const launchPartners = [
     logo: '/gallery.jpeg'
   },
   {
+    name: 'Seam',
+    url: 'https://seam.so/',
+    logo: '/seam.jpeg'
+  },
+  {
     name: 'Center',
     url: 'https://center.app/',
     logo: '/center.jpeg'
