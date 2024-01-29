@@ -59,14 +59,14 @@ export const launchPartners = [
     logo: '/alphawallet.jpeg'
   },
   {
-    name: 'Brume Wallet',
-    url: 'https://brume.money',
-    logo: '/brume.jpeg'
-  },
-  {
     name: 'Gallery',
     url: 'https://gallery.so/',
     logo: '/gallery.jpeg'
+  },
+  {
+    name: 'Brume Wallet',
+    url: 'https://brume.money',
+    logo: '/brume.jpeg'
   },
   {
     name: 'Seam',
