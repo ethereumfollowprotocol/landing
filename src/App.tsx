@@ -4,6 +4,11 @@ import { Header } from '#/components/header.tsx'
 
 export const launchPartners = [
   {
+    name: 'Pudgy Penguins Marketplace',
+    url: 'https://marketplace.pudgypenguins.com/',
+    logo: '/pudgypenguinsmarketplace.jpeg'
+  },
+  {
     name: 'Airstack',
     url: 'https://airstack.io/',
     logo: '/airstack.jpeg'
