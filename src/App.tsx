@@ -9,16 +9,6 @@ export const launchPartners = [
     logo: '/pudgypenguinsmarketplace.jpeg'
   },
   {
-    name: 'Airstack',
-    url: 'https://airstack.io/',
-    logo: '/airstack.jpeg'
-  },
-  {
-    name: 'Skiff',
-    url: 'https://skiff.org',
-    logo: '/skiff.jpeg'
-  },
-  {
     name: 'Nifty Island',
     url: 'https://niftyisland.io',
     logo: '/niftyisland.jpeg'
