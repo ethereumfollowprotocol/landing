@@ -9,13 +9,18 @@ export const launchPartners = [
     logo: '/pudgypenguinsmarketplace.jpeg'
   },
   {
+    name: 'Snapshot',
+    url: 'https://snapshot.org/',
+    logo: '/snapshot.jpeg'
+  },
+  {
     name: 'Nifty Island',
     url: 'https://niftyisland.io',
     logo: '/niftyisland.jpeg'
   },
   {
-    name: 'ENS Vision',
-    url: 'https://ens.vision/',
+    name: 'Vision',
+    url: 'https://vision.io/',
     logo: '/ensvision.jpeg'
   },
   {
