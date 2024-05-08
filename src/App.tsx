@@ -84,6 +84,21 @@ export const launchPartners = [
     logo: '/ensbook.jpeg'
   },
   {
+    name: 'Roam',
+    url: 'https://roam.xyz/',
+    logo: '/roam.jpeg'
+  },
+  {
+    name: 'NFT Valuations',
+    url: 'https://nftvaluations.com/',
+    logo: '/nftvaluations.jpeg'
+  },
+  {
+    name: 'ENS Surf',
+    url: 'https://ens.surf/',
+    logo: '/enssurf.jpeg'
+  },
+  {
     name: 'Common Ground',
     url: 'https://www.commonground.cg/',
     logo: '/commonground.jpeg'
