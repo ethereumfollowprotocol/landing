@@ -89,7 +89,7 @@ export const launchPartners = [
     logo: '/roam.jpeg'
   },
   {
-    name: 'NFTValuations',
+    name: 'NFT Valuations',
     url: 'https://nftvaluations.com/',
     logo: '/nftvaluations.jpeg'
   },
