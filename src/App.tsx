@@ -281,7 +281,7 @@ export default function App() {
       >
         <div>
           <img
-            src='/public/full-logo.png'
+            src='/full-logo.png'
             alt='Ethereum Follow Protocol logo'
             className='w-64 sm:w-80 mx-auto'
           />

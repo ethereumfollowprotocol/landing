@@ -91,7 +91,7 @@ body,
   background: white;
   background-image: url('../public/art/waves-background.svg');
   background-repeat: no-repeat;
-  background-position: -28.5vw -8vw;
+  background-position: -28.5vw -20vw;
   background-size: 200vw 110%;
   font-family: "Roboto", sans-serif !important;
 }
