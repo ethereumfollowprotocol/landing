@@ -88,9 +88,20 @@ body,
   min-height: 100%;
   min-width: 100%;
   margin: 0;
-  background: linear-gradient(180deg, #fff500 0%, #ff79c9 50%), #333;
-  background-attachment: no-repeat;
+  background: white;
+  background-image: url('../public/art/waves-background.svg');
+  background-repeat: no-repeat;
+  background-position: -28.5vw -8vw;
+  background-size: 200vw 110%;
   font-family: "Roboto", sans-serif !important;
+}
+
+@media screen and (max-width: 640) {
+  body {
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-position: 10px;
+  }
 }
 
 /* Remove default margin in favour of better control in authored CSS */
@@ -205,3 +216,16 @@ textarea:not([rows]) {
   background-color: #ff9eb1 !important;
   color: #f9f9f9;
 }
+
+.glass-card {
+  background: linear-gradient(
+      to right bottom,
+      rgba(246, 246, 246, 0.2),
+      rgba(246, 246, 246, 0.1)
+  ), url('../public/common/noise.svg');
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-blend-mode: saturation;
+  backdrop-filter: blur(1.25rem);
+}
+

@@ -273,87 +273,74 @@ export default function App() {
   return (
     <Flex mx='auto' px='3' width='100%' justify='center' className='font-serif'>
       <Header />
-      <Flex width='100%' justify='center' direction='column' gap='3' mx='auto' className='mt-20'>
-        <Flex align='center' gap='5' justify='center' pt='1'>
-          <Avatar src='/logo.png' fallback={''} className='shadow-xl rounded-full w-40 h-40' />
-          <Flex direction='column' className='text-left'>
-            <Text size='8' weight='bold'>
-              Ethereum
-            </Text>
-            <Text size='8' weight='bold'>
-              Follow
-            </Text>
-            <Text size='8' weight='bold'>
-              Protocol
-            </Text>
-          </Flex>
-        </Flex>
-        <p className='text-zinc-900 text-lg font-bold mx-4 mt-4' style={{ fontSize: '27px' }}>
-          It{"'"}s about who you know. The social graph for Ethereum.
-        </p>
-
-        <p
-          className='text-[#888888] text-6xl sm:text-[5.2rem] font-semibold my-7'
-          style={{ margin: '6rem 0 6rem 0' }}
-        >
-          Coming Soon
-        </p>
-
-        <Box
-          className='bg-white/50 text-black font-bold text-center text-sm rounded-3xl mx-auto w-full max-w-4xl'
-          style={{ padding: '2.5rem 4rem 2.5rem 4rem' }}
-        >
-          <p
-            className='text-zinc-900 text-2xl font-bold pb-12 sm:pb-6'
-            style={{ fontSize: '27px' }}
-          >
-            Launch Partners
+      <Flex
+        width='100%'
+        justify='center'
+        direction='column'
+        mx='auto'
+        className='mt-20 gap-12 sm:gap-16 md:gap-20'
+      >
+        <div>
+          <img
+            src='/public/full-logo.png'
+            alt='Ethereum Follow Protocol logo'
+            className='w-64 sm:w-80 mx-auto'
+          />
+          <p className='text-dark-gray text-2xl md:text-3xl font-bold mx-4 mt-4'>
+            It&apos;s about{' '}
+            <span className=' bg-gradient-to-r from-[#ffcb44] to-[#ff9c90] bg-clip-text text-transparent'>
+              who
+            </span>{' '}
+            you know. The social graph for Ethereum.
           </p>
-          <section className='w-full gap-y-8 gap-x-12 sm:gap-x-8 grid grid-cols-2 sm:grid-cols-6 grid-rows-2'>
-            {launchPartners.map(partner => (
-              <Box key={partner.name} width='100%'>
-                <Link
-                  className='text-black text-xs rounded-full space-y-2'
-                  target='_blank'
-                  rel='noopener noreferrer'
-                  href={partner.url}
-                >
-                  <img
-                    src={partner.logo}
-                    alt={partner.name}
-                    className='mx-auto rounded-full sm:w-19 sm:h-19'
-                  />
-                  <p
-                    className='pt-1 mt-2 text-[1.3rem] font-bold'
-                    style={{ lineHeight: '25px', fontSize: '17px' }}
+        </div>
+        <p className='text-[#555555] text-5xl sm:text-[5.2rem] font-semibold'>Coming Soon 👀</p>
+        <div>
+          <Box className='glass-card sm:p-8 md:p-10 border-2 border-[#ffd6ba] p-4 text-black font-bold text-center text-sm rounded-3xl mx-auto w-full max-w-4xl'>
+            <p className='text-zinc-900 text-3xl font-bold pb-12 sm:pb-6'>Launch Partners</p>
+            <section className='w-full gap-y-8 gap-x-12 sm:gap-x-8 grid grid-cols-3 sm:grid-cols-5 md:grid-cols-6 grid-rows-2'>
+              {launchPartners.map(partner => (
+                <Box key={partner.name} width='100%'>
+                  <Link
+                    className='text-black text-xs rounded-full space-y-2'
+                    target='_blank'
+                    rel='noopener noreferrer'
+                    href={partner.url}
                   >
-                    {partner.name}
-                  </p>
-                </Link>
-              </Box>
-            ))}
-          </section>
-        </Box>
-        <Box
-          py='5'
-          mx='auto'
-          my='5'
-          width='100%'
-          className='bg-white/50 text-black font-bold text-center text-sm rounded-3xl max-w-4xl'
-        >
-          <p className='text-zinc-900 text-2xl font-bold pb-2' style={{ fontSize: '27px' }}>
-            Supported by grants from:
-          </p>
-          <Link target='_blank' rel='noopener noreferrer' href='https://ensdao.org/'>
-            <img
-              src='/ensdao.png'
-              width='230'
-              height='175'
-              alt='ens dao'
-              className='mx-auto py-4'
-            />
-          </Link>
-        </Box>
+                    <img
+                      src={`/partners${partner.logo}`}
+                      alt={partner.name}
+                      className='mx-auto rounded-full sm:w-19 sm:h-19'
+                    />
+                    <p
+                      className='pt-1 mt-2 text-[1.3rem] font-bold'
+                      style={{ lineHeight: '25px', fontSize: '17px' }}
+                    >
+                      {partner.name}
+                    </p>
+                  </Link>
+                </Box>
+              ))}
+            </section>
+          </Box>
+          <Box
+            py='5'
+            mx='auto'
+            my='5'
+            width='100%'
+            className='glass-card border-2 border-gray-100 text-dark-gray font-bold text-center text-sm rounded-3xl max-w-4xl'
+          >
+            <p className=' text-2xl sm:text-3xl font-bold pb-8'>Supported by grants from:</p>
+            <Link target='_blank' rel='noopener noreferrer' href='https://ensdao.org/'>
+              <img
+                src='/sponsors/ensdao.png'
+                width='180'
+                alt='ens dao'
+                className='mx-auto w-44 sm:w-60 rounded-[2rem] border-2 border-[#B879FF]'
+              />
+            </Link>
+          </Box>
+        </div>
       </Flex>
     </Flex>
   )
