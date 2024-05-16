@@ -2,7 +2,7 @@ import { Link } from '@radix-ui/themes'
 
 export function Header() {
   return (
-    <header className='flex w-full  gap-4 z-50 px-4 sm:gap-8 fixed top-0 backdrop-blur-md left-0 justify-between sm:justify-end items-center bg-white/70 py-4'>
+    <header className='navigation flex w-full gap-4 z-50 px-4 sm:gap-8 fixed top-0 left-0 justify-between sm:justify-end items-center py-4'>
       <Link
         href='https://github.com/ethereumfollowprotocol/demo'
         target='_blank'
@@ -74,7 +74,7 @@ export function Header() {
       >
         <button
           type='button'
-          className='bg-[#FFE067] py-2 rounded-xl cursor-pointer justify-center gap-2 w-32 flex items-center'
+          className='bg-[#FFE067] hover:opacity-80 transition-opacity py-2 rounded-xl cursor-pointer justify-center gap-2 w-32 flex items-center'
         >
           <img src='/common/follow-icon.svg' alt='follow icon' />
           <p>DEMO</p>

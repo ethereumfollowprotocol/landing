@@ -285,7 +285,7 @@ export default function App() {
             alt='Ethereum Follow Protocol logo'
             className='w-64 sm:w-80 mx-auto'
           />
-          <p className='text-dark-gray text-2xl md:text-3xl font-bold mx-4 mt-4'>
+          <p className='text-dark-gray text-2xl md:text-3xl font-bold mx-4 mt-6'>
             It&apos;s about{' '}
             <span className=' bg-gradient-to-r from-[#ffcb44] to-[#ff9c90] bg-clip-text text-transparent'>
               who

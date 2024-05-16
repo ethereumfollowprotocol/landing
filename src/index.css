@@ -229,3 +229,14 @@ textarea:not([rows]) {
   backdrop-filter: blur(1.25rem);
 }
 
+.navigation {
+  background: #fffb;
+  backdrop-filter: blur(0.5rem);
+}
+
+@media screen and (min-width: 1770px) {
+  .navigation {
+    background: transparent;
+    backdrop-filter: unset;
+  }
+}
