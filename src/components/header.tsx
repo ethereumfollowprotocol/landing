@@ -1,4 +1,4 @@
-import { Button, Link } from '@radix-ui/themes'
+import { Link } from '@radix-ui/themes'
 
 export function Header() {
   return (
@@ -76,7 +76,7 @@ export function Header() {
           type='button'
           className='bg-[#FFE067] py-2 rounded-xl cursor-pointer justify-center gap-2 w-32 flex items-center'
         >
-          <img src='/public/common/follow-icon.svg' alt='follow icon' />
+          <img src='/common/follow-icon.svg' alt='follow icon' />
           <p>DEMO</p>
         </button>
       </Link>

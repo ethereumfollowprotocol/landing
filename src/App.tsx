@@ -1,5 +1,4 @@
-import { Avatar, Box, Card, Flex, Grid, Link, Text } from '@radix-ui/themes'
-
+import { Box, Flex, Link } from '@radix-ui/themes'
 import { Header } from '#/components/header.tsx'
 
 export const launchPartners = [
