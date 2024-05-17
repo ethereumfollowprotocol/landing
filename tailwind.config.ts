@@ -9,7 +9,10 @@ export default {
       serif: ['Roboto', ...defaultTheme.fontFamily.serif]
     },
     extend: {
-      fontFamily: {}
+      fontFamily: {},
+      colors: {
+        'dark-gray': '#333333'
+      }
     }
   },
   plugins: []
