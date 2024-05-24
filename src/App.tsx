@@ -183,11 +183,6 @@ export const launchPartners = [
     logo: '/3cities.jpeg'
   },
   {
-    name: 'SI HER',
-    url: 'https://www.si3.space/',
-    logo: '/siher.jpeg'
-  },
-  {
     name: 'GoDID',
     url: 'https://godid.io',
     logo: '/godid.jpeg'
