@@ -243,11 +243,6 @@ export const launchPartners = [
     logo: '/onceupon.jpeg'
   },
   {
-    name: 'BendDAO',
-    url: 'https://www.benddao.xyz/en/',
-    logo: '/benddao.jpeg'
-  },
-  {
     name: 'Integrous',
     url: 'https://integrous.xyz/',
     logo: '/integrous.jpeg'
