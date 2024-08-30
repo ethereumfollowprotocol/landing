@@ -24,7 +24,7 @@ export function Header() {
         </svg>
       </Link>
       <Link
-        href='https://x.com/ethfollowpr'
+        href='https://x.com/efp'
         target='_blank'
         rel='noopener noreferrer'
         className='rounded-full'
