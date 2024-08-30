@@ -252,11 +252,11 @@ export const launchPartners = [
     url: 'https://www.linkeh.xyz/',
     logo: '/linkeh.jpeg'
   }
-] satisfies Array<{
+] satisfies {
   name: string
   url: string
   logo: string
-}>
+}[]
 
 export default function App() {
   return (
